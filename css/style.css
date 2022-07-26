@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+.navbar-container {
+  text-align: end;
+  margin: 50px 90px;
+}
+
+.navbar-container div {
+  display: inline-block;
+}
+
+.grow-list {
+  position: absolute;
+  top: 60px;
+  left: 270px;
+}
+
+.list li {
+  display: inline-block;
+  opacity: 0.4;
+  margin: 0 20px;
+}
+
+.highlight {
+  opacity: 1 !important;
+}
+
+.brand-logo {
+  height: 42px;
+  position: absolute;
+  left: 90px;
+  top: 50px;
+}
+
+.nav-button {
+  background-color: #5955b3;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  padding: 13px 26px;
+}
+
+/* Banner Section */
+
+.banner-container {
+  margin: 0 90px;
+}
+
+.banner-container div {
+  display: inline-block;
+}
+
+/* Left Text */
+
+.left-text {
+  text-align: left;
+  margin-right: 60%;
+}
+
+.heading-text {
+  color: #3c2f60;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 85px;
+}
+
+.heading-text span {
+  color: #5a56b3;
+}
+
+.description {
+  margin: 20px 100px 70px 0;
+  opacity: 0.4;
+}
+
+.btn {
+  padding: 22px 37px;
+  font-size: 15px;
+}
+
+/* Right Text */
+
+.banner-img {
+  position: absolute;
+  right: 0;
+}
+
+.banner-img img {
+  height: 650px;
+}
